@@ -20,7 +20,7 @@ fname = None
 def usage():
     print("Usage: psmcdata [-u <mutrate> -g <gentime>] <inputfile>",
           file=sys.stderr)
-    print("Defaults: mutrate=%f gentime=%d" % (mutrate, gentime),
+    print("Defaults: mutrate=%f gentime=%f" % (mutrate, gentime),
           file=sys.stderr)
     exit(1)
 
