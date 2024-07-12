@@ -36,6 +36,8 @@ while i < len(sys.argv):
         if i == len(sys.argv):
             usage()
         gentime = float(sys.argv[i])
+    elif sys.argv[i][0] == '-':
+        usage()
     else:
         if fname != None:
             usage()
